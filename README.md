@@ -63,6 +63,13 @@ NIKE total revenue of $218.99K million significantly outperformed the industry b
 | COVID-19 Impact | Q2 2020 margin -20% | Recovered fully by Q3 2020 |
 | Asset-to-Liability ratio | Assets > Liabilities all years | Financially stable throughout |
 
+**Financial Analysis Dashboard**
+
+![Financial Analysis Dashboard](Financial%20Analysis%20Dashboard.png)
+
+**Comparison Dashboard**
+
+![Comparison Dashboard](Comparison%20Dashboard.png)
 ---
 
 ## Part 2 — Revenue Forecasting (RapidMiner Machine Learning)
@@ -105,6 +112,13 @@ Linear Regression was selected as the final model for its interpretability, suit
 - **Deployment:** Created a deployment dataset with updated variable values to generate future revenue predictions
 - **Tool:** RapidMiner Studio
 
+**RapidMiner Process Design**
+
+![RapidMiner Process Design](RapidMiner_Process_Design.png)
+
+**Model Prediction Result**
+
+![Model Prediction Result](Model_Prediction_Result.png)
 ---
 ## Repository Structure
 
