@@ -118,7 +118,7 @@ Linear Regression was selected as the final model for its interpretability, suit
 
 **Model Prediction Result**
 
-![Model Prediction Result](Model_Prediction_Result.png)
+![Model Prediction Result](Model_Prediction_Result%20.png)
 ---
 ## Repository Structure
 
