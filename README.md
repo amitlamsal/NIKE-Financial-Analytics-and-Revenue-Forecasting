@@ -22,7 +22,7 @@ The project was completed across three courses at Webster University and demonst
 | **Data Source** | Nike.com, SEC.gov | Nike.com, SEC.gov, Federal Reserve, World Bank | Nike.com, SEC.gov, Competitor filings |
 | **Focus** | Financial health visualization | Future revenue prediction | Stock target price and Buy/Sell recommendation |
 | **Key Output** | Revenue outperformed benchmark by 36.7% | Linear Regression selected as optimal model | Target price $100.70 — BUY recommendation |
-| **Course** | CSDA 5310 Data Visualization | CSIS 5420 Machine Learning for Business | FIN 5XXX Financial Analysis |
+| **Course** | Data Visualization | Machine Learning for Business | Data Analytics for Managers |
 
 ---
 
