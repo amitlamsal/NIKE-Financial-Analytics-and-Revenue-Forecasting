@@ -234,12 +234,24 @@ nike-financial-analytics-revenue-forecasting/
 
 ## Tools & Technologies
 
-| Tool | Purpose |
-|---|---|
-| **Power BI** | Interactive financial dashboard |
-| **RapidMiner** | Machine learning models — Linear Regression, Decision Tree, Random Forest, KNN |
-| **Excel** | Data preparation and financial dataset — 20-year quarterly data |
-| **PowerPoint** | Project presentations for all analyses |
+| Tool | Purpose | Used In |
+|---|---|---|
+| **Power BI** | Interactive financial dashboard — 6 visualizations covering Revenue, Gross Profit, Liquidity, Assets vs Liabilities, Net Profit Margin and Industry Benchmark | Part 1 |
+| **RapidMiner** | Machine learning models — Linear Regression, Decision Tree, Random Forest and KNN tested and compared for revenue forecasting | Part 2 |
+| **Excel** | Multi-purpose financial analytics tool covering: | Part 1, 2 & 3 |
+| | • 20-year quarterly dataset preparation and cleaning | Part 2 |
+| | • OLS Regression analysis — inflation rate vs revenue growth using CPI data | Part 2 |
+| | • Competitor benchmarking table — P/S, P/E, EPS, Market Cap across 7 competitors | Part 3 |
+| | • Weighted valuation model — P/S and P/E methods with 50/50 weighting | Part 3 |
+| | • Decision input dashboard — analyst vs management assumption comparison | Part 3 |
+| | • Descriptive statistics — financial ratios (Gross %, Net %, ROA, ROE, EPS) | Part 3 |
+| | • Target price calculation — $100.70 with margin of error analysis | Part 3 |
+| | • Buy/Sell recommendation engine | Part 3 |
+| **PowerPoint** | Academic presentations for all three project components | Part 1, 2 & 3 |
+| **Word** | Financial analysis report — 5-year performance assessment | Part 1 |
+| **SEC.gov & Nike.com** | Primary data sources for all financial statements and filings | Part 1, 2 & 3 |
+| **Federal Reserve (FRED)** | CPI inflation data for macroeconomic regression analysis | Part 2 |
+| **World Bank** | GDP and macroeconomic variables for revenue forecasting model | Part 2 |
 
 ---
 
