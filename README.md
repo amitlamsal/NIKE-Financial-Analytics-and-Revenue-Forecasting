@@ -141,7 +141,7 @@ A sophisticated Excel-based financial decision model combining competitor analys
 
 **Excel Valuation Model Screenshot**
 
-![Excel Valuation Model](Excel_Model_Picture.png)
+![Excel Valuation Model](Model_Screenshot.png)
 
 **Model Inputs:**
 - Analyst revenue growth assumptions
