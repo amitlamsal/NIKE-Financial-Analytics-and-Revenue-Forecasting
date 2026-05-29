@@ -134,6 +134,8 @@ Linear Regression was selected as the final model for its interpretability, suit
 ---
 
 ## Part 3 — Stock Valuation & Investment Decision Model (Excel)
+### Business Question
+**Is NIKE stock undervalued or overvalued** at its current market price and what is the data-driven investment recommendation?
 
 A sophisticated Excel-based financial decision model combining competitor analysis, financial ratio analysis and regression modeling to generate a target stock price and Buy/Sell recommendation.
 
