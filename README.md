@@ -10,17 +10,29 @@
 
 ## Project Overview
 
-This repository combines two complementary analytics projects on NIKE Inc. — a financial performance dashboard built in Power BI and a machine learning revenue forecasting model built in RapidMiner. Together they deliver a complete analytical picture of NIKE's financial health and future revenue trajectory.
+This repository presents a comprehensive three-part financial analytics study of NIKE Inc. — combining descriptive analytics, predictive machine learning and investment decision modeling to deliver a complete 360-degree view of NIKE's financial position, future revenue trajectory and stock valuation.
 
-| Aspect | Financial Dashboard | Revenue Forecasting |
-|---|---|---|
-| **Type** | Descriptive Analytics | Predictive Analytics |
-| **Tool** | Power BI | RapidMiner |
-| **Data Period** | 5 years (2019–2023) | 20 years (2009–2024 quarterly) |
-| **Data Source** | Nike.com, SEC.gov | Nike.com, SEC.gov, Federal Reserve, World Bank |
-| **Focus** | Financial health visualization | Future revenue prediction |
-| **Course** | Data Visualization | Machine Learning for Business |
+The project was completed across three courses at Webster University and demonstrates the full spectrum of financial analytics capabilities — from historical performance visualization to forward-looking revenue forecasting to data-driven investment recommendations.
 
+| Aspect | Part 1 — Financial Dashboard | Part 2 — Revenue Forecasting | Part 3 — Stock Valuation |
+|---|---|---|---|
+| **Type** | Descriptive Analytics | Predictive Analytics | Investment Decision Analytics |
+| **Tool** | Power BI | RapidMiner | Excel |
+| **Data Period** | 5 years (2019–2023) | 20 years (2009–2024 quarterly) | 24 quarters (2019–2024) |
+| **Data Source** | Nike.com, SEC.gov | Nike.com, SEC.gov, Federal Reserve, World Bank | Nike.com, SEC.gov, Competitor filings |
+| **Focus** | Financial health visualization | Future revenue prediction | Stock target price and Buy/Sell recommendation |
+| **Key Output** | Revenue outperformed benchmark by 36.7% | Linear Regression selected as optimal model | Target price $100.70 — BUY recommendation |
+| **Course** | CSDA 5310 Data Visualization | CSIS 5420 Machine Learning for Business | FIN 5XXX Financial Analysis |
+
+---
+
+### The Business Questions This Project Answers
+
+- **How has NIKE performed financially over the past 5 years** and does it demonstrate the strength of a market leader?
+- **Can we accurately predict NIKE's future quarterly revenue** using financial and macroeconomic variables?
+- **Is NIKE stock undervalued or overvalued** at its current market price and what is the data-driven investment recommendation?
+- **How does NIKE compare to its competitors** on key valuation multiples and financial metrics?
+- **What macroeconomic factors** drive NIKE revenue and how strong is their predictive relationship?
 ---
 
 ## Part 1 — Financial Analytics Dashboard (Power BI)
