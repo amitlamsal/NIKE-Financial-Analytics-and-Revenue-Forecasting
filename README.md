@@ -1,5 +1,5 @@
-# NIKE Financial Analytics & Revenue Forecasting
-### Financial Analysis Dashboard + Machine Learning Revenue Prediction | Webster University
+# NIKE Financial Analytics, Revenue Forecasting & Stock valuation
+### Financial Analysis Dashboard + Machine Learning Revenue Prediction + Stock Valuation | Webster University
 
 [![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?style=flat&logo=powerbi&logoColor=black)](https://github.com/amitlamsal/nike-financial-analytics-revenue-forecasting)
 [![Python](https://img.shields.io/badge/RapidMiner-0073C8?style=flat)](https://github.com/amitlamsal/nike-financial-analytics-revenue-forecasting)
