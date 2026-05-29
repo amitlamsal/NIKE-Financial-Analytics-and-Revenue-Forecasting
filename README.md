@@ -120,35 +120,101 @@ Linear Regression was selected as the final model for its interpretability, suit
 
 ![Model Prediction Result](Model_Prediction_Result%20.png)
 ---
+
+## Part 3 — Stock Valuation & Investment Decision Model (Excel)
+
+A sophisticated Excel-based financial decision model combining competitor analysis, financial ratio analysis and regression modeling to generate a target stock price and Buy/Sell recommendation.
+
+**Excel Valuation Model Screenshot**
+
+![Excel Valuation Model](Excel_Model_Picture.png)
+
+**Model Inputs:**
+- Analyst revenue growth assumptions
+- Management guidance — Nike Direct, Digital, Wholesale, SG&A
+- Inflation target and shares outstanding
+
+**Model Outputs:**
+
+| Output | Value |
+|---|---|
+| **Target Price** | $100.70 |
+| **Current Price at Analysis** | $77.25 |
+| **Buy/Sell Recommendation** | ✅ BUY |
+| **Revenue Growth Rate** | 7.6% |
+| **EPS Forecast** | $0.89 |
+
+**Valuation Methods:**
+
+| Method | Weight | Target Price |
+|---|---|---|
+| Price / Sales ratio | 50% | $107.33 |
+| P / E ratio | 50% | $94.07 |
+| **Weighted Average** | **100%** | **$100.70** |
+
+**Competitor Benchmarking:**
+
+| Company | P/S | P/E | EPS | Market Cap ($B) |
+|---|---|---|---|---|
+| Adidas | 1.93 | 38.4 | -0.23 | 45.82 |
+| Anta | 3.55 | 16.11 | 0.45 | 27.58 |
+| Asics | 3.40 | 38.29 | 0.00 | 19.90 |
+| Deckers | 6.79 | 36.84 | 1.59 | 31.75 |
+| Lululemon | 4.81 | 27.30 | 12.20 | 46.78 |
+| Puma | 0.76 | 25.60 | 0.88 | 7.19 |
+| Under Armour | 0.70 | 13.11 | 0.52 | 3.60 |
+
+**Data Coverage:**
+- 24 quarters of NIKE financial data (Q1 2019 — Q4 2024)
+- CPI inflation regression analysis linking inflation rate to revenue growth
+- Geographic revenue breakdown — North America, EMEA, Greater China, APLA
+---
+
 ## Repository Structure
 
 ```
 nike-financial-analytics-revenue-forecasting/
 │
 ├── 01_Financial_Dashboard/
-│   ├── NIKE_Financial_Dashboard.pbix
-│   ├── Financial_Analysis_Report.docx
-│   ├── Financial_Analysis_Presentation.pptx
-│   ├── Dashboard_Page1.png
-│   └── Dashboard_Page2.png
+│   ├── NIKE_Amit.pbix                        ← Power BI dashboard file
+│   ├── Amit__NIKE_Inc__.docx                 ← Financial analysis report
+│   ├── Amit__NIKE_Inc__.pptx                 ← Financial analysis presentation
+│   ├── Financial_Analysis_Dashboard.png      ← Dashboard screenshot
+│   └── Comparison_Dashboard.png              ← Comparison view screenshot
 │
 ├── 02_Revenue_Prediction/
-│   ├── Revenue_Prediction_RapidMiner.rmp
-│   ├── NIKE_Financial_Dataset_20Years.xlsx
-│   └── Revenue_Prediction_Presentation.pptx
+│   ├── Final_ML_Project.rmp                  ← RapidMiner ML project file
+│   ├── Final_Data.xlsx                       ← 20-year quarterly dataset
+│   ├── Amit_ML__NIKE_Inc__.pptx              ← ML project presentation
+│   ├── RapidMiner_Process_Design.png         ← ML workflow screenshot
+│   └── Model_Prediction_Result.png           ← Model results screenshot
+│
+├── 03_Valuation_Model/
+│   ├── NIKE_Stock_Valuation_Model.xlsx       ← Excel DCF and valuation model
+│   └── Excel_Model_Picture.png               ← Valuation dashboard screenshot
 │
 └── README.md
-```
 
+```
 ---
 
 ## Key Takeaways
 
-- NIKE demonstrates exceptional financial resilience — recovering from COVID-19 faster than industry peers
-- Revenue consistently outperformed industry benchmarks by 36.7% across the 5-year period
-- Assets exceeded liabilities in every year analyzed confirming long-term financial stability
-- Linear Regression provides the most reliable and interpretable revenue forecasting model for NIKE's time series data
-- Macroeconomic variables (GDP, Unemployment, Inflation) are significant predictors of NIKE revenue alongside internal financial metrics
+- **NIKE demonstrates exceptional financial resilience** — recovering from COVID-19 faster than industry peers with net profit margin returning above 10% by Q3 2020 and sustaining through 2024
+
+- **Revenue consistently outperformed industry benchmarks by 36.7%** across the 5-year period — total revenue of $218.99K million vs industry expectation of $80.37K million confirming market leadership
+
+- **Assets exceeded liabilities in every single year analyzed** — confirming long-term financial stability and low insolvency risk throughout the 2019–2024 period
+
+- **Linear Regression provides the most reliable and interpretable revenue forecasting model** for NIKE's time series data — selected over KNN despite lower raw metrics due to superior time series suitability and interpretability
+
+- **Macroeconomic variables (GDP, Unemployment, Inflation) are significant predictors of NIKE revenue** alongside internal financial metrics — confirmed through regression analysis using 20 years of quarterly data
+
+- **Stock valuation model generates a BUY recommendation** — weighted target price of $100.70 represents a 30.3% upside from the $77.25 market price at the time of analysis, supported by both P/S ($107.33) and P/E ($94.07) valuation methods
+
+- **Competitor benchmarking confirms NIKE's premium positioning** — NIKE's valuation multiples are justified relative to peers with Lululemon (P/S 4.81) and Deckers (P/S 6.79) trading at significantly higher multiples despite smaller market caps
+
+- **Three complementary analytical approaches tell a complete story** — descriptive analytics (Power BI dashboard), predictive analytics (RapidMiner ML) and investment decision analytics (Excel valuation model) together provide a 360-degree view of NIKE's financial position
 
 ---
 
@@ -159,7 +225,7 @@ nike-financial-analytics-revenue-forecasting/
 | **Power BI** | Interactive financial dashboard |
 | **RapidMiner** | Machine learning models — Linear Regression, Decision Tree, Random Forest, KNN |
 | **Excel** | Data preparation and financial dataset — 20-year quarterly data |
-| **PowerPoint** | Project presentations for both analyses |
+| **PowerPoint** | Project presentations for all analyses |
 
 ---
 
@@ -169,7 +235,7 @@ nike-financial-analytics-revenue-forecasting/
 |---|---|---|---|
 | Financial Dashboard | Data Visualization | Prof. Shawn Higginbotham | Webster University |
 | Revenue Forecasting | Machine Learning for Business | Prof. Ahmad Rabiu | Webster University |
-
+| Stock Price Valuation | Data Analytics Project | Prof. Ahmad Rabiu | Webster University |
 ---
 
 ## About the Author
